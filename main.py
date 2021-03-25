@@ -1,10 +1,22 @@
 from dotenv import load_dotenv
-load_dotenv()
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy 
 
-from flask import Flask, render_template
-app = Flask(__name__)
+db = SQLAlchemy()
 
-from controllers import registerable_controllers
-for controller in registerable_controllers:
-    app.register_blueprint(controller)
+def create_app():
+
+    app = Flask(__name__)
+    load_dotenv()
+    from controllers import registerable_controllers
+    for controller in registerable_controllers:
+        app.register_blueprint(controller)
+
+    from commands import db_commands
+    app.register_blueprint(db_commands)
+
+    if __name__ == "__main__":
+	    app.run()
+    
+    return app
 
