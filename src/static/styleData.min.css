@@ -17,17 +17,19 @@ section{
     display:flex;
     flex-direction: column;
     height:99vh;
-    width:31vw;
-    padding:2%;
+    width:33vw;
+    padding:1%;
 }
 .container-sm{
-    width:68%;
+    width:80%;
 }
 h1{
     padding:3%;
-    padding-bottom:6%;
 }
 #layout{
     display:flex;
     flex-direction:row;
+}
+h3{
+    padding:3%; 
 }

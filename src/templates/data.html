@@ -15,9 +15,9 @@
     <div id="layout">
         {% for num in range(dictList| length) %}  
         <section>
-        <h1>Items {{ names[num] }}</h1>
+        <h1>{{ names[num] }}</h1>
             {% for item in dictList[num] %}
-                <h1>Item {{loop.index}}</h1>
+                <h3>Item {{loop.index}}</h3>
                 {% for key,value in item.items() %}
                     <li><div class="container-sm">{{ key }}</div>:<div class="container-xxl">{{ value }}</div></li>
                 {% endfor %}
