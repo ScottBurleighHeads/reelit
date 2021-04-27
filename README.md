@@ -12,11 +12,11 @@
 
 ##### The total results fully expanded to view in one page:
 
-![Full view of results](src/static/img/Solution2.JPG)
+![Full view of results](src/static/img/solution2.JPG)
 
 ##### The minimum requirements delivered:
 
-![Pic of the requirements delivered](src/static/img/Solution3.JPG)
+![Pic of the requirements delivered](src/static/img/solution3.JPG)
 
 ### Instruction to try and set up the app on your personal computer:
 
