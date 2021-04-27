@@ -4,19 +4,19 @@
 
 ##### Home page with button in the center that links to a filtered and ordered JSON file:
 
-![home page picture](src/static/img/homePage.JPG)
+![Home page picture](src/static/img/homePage.JPG)
 
 ##### Results of the JSON file displayed with html and CSS:
 
-![home page picture](src/static/img/Solution1.JPG)
+![Viewport view of results](src/static/img/Solution1.JPG)
 
 ##### The total results fully expanded to view in one page:
 
-![home page picture](src/static/img/Solution2.JPG)
+![Full view of results](src/static/img/Solution2.JPG)
 
 ##### The minimum requirements delivered:
 
-![home page picture](src/static/img/Solution3.JPG)
+![Pic of the requirements delivered](src/static/img/Solution3.JPG)
 
 ### Instruction to try and set up the app on your personal computer:
 
